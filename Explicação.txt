@@ -1,0 +1,34 @@
+
+
+Regressão Linear:
+
+Vídeo: https://youtu.be/gdxmMxC9aZM
+
+
+Passos para Executar os Projetos:
+
+1 - Importar os bancos de dados toyotacarros
+
+2 - Executar os comando abaixo
+
+CREATE TABLE toyotacarros_calcula SELECT * FROM toyotacarros LIMIT 1
+
+3 - Executar o painelRegressaoLinear e entrar com os dados que deseja calcular.
+
+
+
+
+Redes Neurais:
+
+https://youtu.be/dSH3FFg1rF4
+
+
+1 - Importar os bancos de dados toyotacarros
+
+2 - Executar os comando abaixo
+
+CREATE TABLE vegetacao_treinos SELECT * FROM vegetacao ORDER BY RAND() LIMIT 10000;
+CREATE TABLE vegetacao_teste SELECT * FROM vegetacao WHERE id NOT IN (SELECT id FROM vegetacao_treinos);
+
+3 - Executar o painelRedesNeurais e entrar com os dados que deseja classificar.
+
